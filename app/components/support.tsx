@@ -11,11 +11,10 @@ export function Support() {
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
             <h2 className="text-3xl font-bold text-white">
-              We're fluent in small business — and ready to take your call.
+              {"We're fluent in small business — and ready to take your call."}
             </h2>
             <p className="mt-4 text-lg text-gray-200">
-              You don't need to be an expert in small business loans. Our team of specialists is here to help you every
-              step of the way.
+              {"You don't need to be an expert in small business loans. Our team of specialists is here to help you every step of the way."}
             </p>
             <div className="mt-8">
               <Button size="lg" variant="secondary" className="text-neutral-900 dark:text-neutral-50">

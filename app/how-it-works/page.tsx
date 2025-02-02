@@ -119,7 +119,7 @@ export default function HowItWorksPage() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.2 }}
               >
-                <p className="text-gray-600 mb-4">"{testimonial.quote}"</p>
+                <p className="text-gray-600 mb-4">`&quot;{testimonial.quote}&quot;`</p>
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
                     <CheckCircle2 className="h-6 w-6 text-green-500" />

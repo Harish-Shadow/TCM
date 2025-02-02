@@ -141,7 +141,7 @@ export default function ContactPage() {
                     required
                   />
                   <label htmlFor="captcha" className="ml-2 block text-sm text-gray-900">
-                    I'm not a robot
+                    {"I'm not a robot"}
                   </label>
                 </div>
                 <Button type="submit">Send Message</Button>

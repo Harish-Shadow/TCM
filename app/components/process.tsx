@@ -35,9 +35,7 @@ export function Process() {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-gray-900">Get a decision.</h3>
-                  <p className="mt-1 text-gray-500">
-                    We'll let you know right away if you're approved and for how much.
-                  </p>
+                  <p className="mt-1 text-gray-500">We will let you know right away if you are approved and for how much.</p>
                 </div>
               </div>
               <div className="flex items-start">

@@ -137,7 +137,7 @@ export default function InvestorPlatformPage() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.2 }}
                 >
-                  <p className="text-gray-600 mb-4 italic">"{testimonial.quote}"</p>
+                  <p className="text-gray-600 mb-4 italic">`&quot;{testimonial.quote}&quot;`</p>
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
                       <Users className="h-6 w-6 text-indigo-500" />
